@@ -16,18 +16,18 @@
 - typescript
 
 # :iphone: How to Use
-<p>1. Clone the repository</p>
+1. Clone the repository
 ```sh
-git clone git@github.com:HallanCosta/boilerplate-expo-atomic-design.git
+ git clone git@github.com:HallanCosta/boilerplate-expo-atomic-design.git
 ```
 
-<p>2. Install the dependencies and Execute boilerplate</p> 
+2. Install the dependencies and Execute boilerplate</p> 
 ```sh
-# Install.
+# Instalação.
 $ yarn install # ou npm install
 
-# Execute.
-$ yarn start # ou npm start
+# Execução.
+$ yarn dev # ou npm run dev
 ```
 
 # Licence
