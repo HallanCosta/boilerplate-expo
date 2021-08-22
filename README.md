@@ -23,11 +23,11 @@
 
 2. Install the dependencies and Execute boilerplate</p> 
 ```sh
-# Instalação.
+# Install.
 $ yarn install # ou npm install
 
-# Execução.
-$ yarn dev # ou npm run dev
+# Execute.
+$ yarn start # ou npm start
 ```
 
 # Licence
