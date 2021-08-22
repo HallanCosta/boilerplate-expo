@@ -11,7 +11,6 @@
 
 
 # :closed_book: Libraries for development
-- @types/styled-components
 - react-native-svg-transformer
 - typescript
 
