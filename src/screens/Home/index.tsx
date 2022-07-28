@@ -8,9 +8,8 @@ import {
 } from './styles';
 
 export function Home() {
-
-  function handleToReplicateData() {
-    const createAtom = (_: unknown, id: number) => {
+  function createAtoms() {
+    const atom = (_: unknown, id: number) => {
       return {
         id: String(Number(id) + 1),
         title: `I'm Atom`,
@@ -18,10 +17,10 @@ export function Home() {
       }
     }
 
-    return Array.from({ length: 3 }, createAtom);
+    return Array.from({ length: 3 }, atom);
   }
 
-  const data = handleToReplicateData();
+  const data = createAtoms();
 
   return (
     <Container>
