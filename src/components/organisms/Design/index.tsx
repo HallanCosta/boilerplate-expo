@@ -3,7 +3,6 @@ import React from 'react';
 import Atom from '../../../assets/images/atom.svg';
 import Molecule from '../../../assets/images/molecule.svg';
 
-import { DesignTitle } from '../../atoms/DesignTitle';
 import { DesignSubtitle } from '../../atoms/DesignSubtitle';
 
 import { AtomHeader } from '../../molecules/AtomHeader';
