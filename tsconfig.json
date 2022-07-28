@@ -17,7 +17,7 @@
 
 
     "outDir": "dist",
-    "rootDir": "./src",
+    "rootDir": ".",
     "baseUrl": ".",
     "paths": {
       "@atoms/*": ["src/components/atoms/*"],
@@ -26,10 +26,11 @@
       "@templates/*": ["src/components/templates/*"],
       "@screens/*": ["src/screens/*"],
       "@assets/*": ["src/assets/*"],
-      "@routes/*": ["src/routes/*"],
+      "@routes": ["./src/routes/index.tsx"],
+      "@routes/*": ["./src/routes/*"],
       "@theme/*": ["src/global/styles/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["./**/*"],
   "exclude": ["node_modules/**/*"]
 }
