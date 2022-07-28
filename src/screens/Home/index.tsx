@@ -20,11 +20,11 @@ export function Home() {
     return Array.from({ length: 3 }, atom);
   }
 
-  const data = createAtoms();
+  const atoms = createAtoms();
 
   return (
     <Container>
-      <Designs data={data} />
+      <Designs data={atoms} />
     </Container>
   );
 }
