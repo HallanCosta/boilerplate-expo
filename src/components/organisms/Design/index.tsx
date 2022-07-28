@@ -7,7 +7,7 @@ import { DesignSubtitle } from '../../atoms/DesignSubtitle';
 
 import { AtomHeader } from '../../molecules/AtomHeader';
 
-import { styles, DesignContainer } from './styles';
+import { styles, Container } from './styles';
 
 export type DesignProps = {
   id: string;
@@ -21,7 +21,7 @@ type Props = {
 
 export function Design({ data }: Props) {
   return (
-    <DesignContainer>
+    <Container>
       <AtomHeader 
         icon={() => <Atom style={styles.atom} />} 
         title={data.title}
@@ -29,6 +29,6 @@ export function Design({ data }: Props) {
 
       <DesignSubtitle value={data.subtitle} />
       <Molecule style={styles.molecule} />
-    </DesignContainer>
+    </Container>
   );
 }

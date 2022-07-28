@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
   }
 });
 
-export const DesignContainer = styled.View`
+export const Container = styled.View`
   margin-top: ${`${STATUSBAR_HEIGHT}px`};
   justify-content: center;
   align-items: center;
