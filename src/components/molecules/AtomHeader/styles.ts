@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
 
 });
 
-export const AtomHeaderContainer = styled.View`
+export const Container = styled.View`
   flex-direction: row;
   justify-content: center;
   align-items: center;

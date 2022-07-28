@@ -3,7 +3,7 @@ import { SvgProps } from 'react-native-svg';
 
 import { DesignTitle } from '../../atoms/DesignTitle';
 
-import { AtomHeaderContainer } from './styles';
+import { Container } from './styles';
 
 type Props = {
   icon: React.FC<SvgProps>;
@@ -12,9 +12,9 @@ type Props = {
 
 export function AtomHeader({ icon: Icon, title }: Props) {
   return (
-    <AtomHeaderContainer>
+    <Container>
       <Icon />
       <DesignTitle value={title} />
-    </AtomHeaderContainer>
+    </Container>
   );
 }
