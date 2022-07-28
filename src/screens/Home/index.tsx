@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Designs } from '../../components/templates/Designs';
+import { Designs } from '@templates/Designs';
 
 import {
   styles,

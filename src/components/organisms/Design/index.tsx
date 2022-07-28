@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Atom from '../../../assets/images/atom.svg';
-import Molecule from '../../../assets/images/molecule.svg';
+import Atom from '@assets/images/atom.svg';
+import Molecule from '@assets/images/molecule.svg';
 
-import { DesignSubtitle } from '../../atoms/DesignSubtitle';
+import { DesignSubtitle } from '@atoms/DesignSubtitle';
 
-import { AtomHeader } from '../../molecules/AtomHeader';
+import { AtomHeader } from '@molecules/AtomHeader';
 
 import { styles, Container } from './styles';
 
