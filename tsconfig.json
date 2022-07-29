@@ -2,20 +2,6 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-
-    "allowSyntheticDefaultImports": true,
-    "jsx": "react-native",
-    "lib": ["dom", "esnext"],
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "moduleResolution": "node",
-    "module": "commonjs",
-    "noEmit": true,
-    "target": "es6",
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-
-
     "outDir": "dist",
     "rootDir": ".",
     "baseUrl": ".",
@@ -26,7 +12,7 @@
       "@templates/*": ["src/components/templates/*"],
       "@screens/*": ["src/screens/*"],
       "@assets/*": ["src/assets/*"],
-      "@routes": ["./src/routes/index.tsx"],
+      "@routes": ["src/routes/index.tsx"],
       "@routes/*": ["./src/routes/*"],
       "@theme/*": ["src/global/styles/*"]
     }
