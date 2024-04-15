@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList } from 'react-native';
 
-import { Design, DesignProps } from '@organisms/Design';
+import { Design, DesignProps } from '@root/components/organisms/Design';
 
 type Props = {
   data: DesignProps[];

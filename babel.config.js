@@ -7,14 +7,8 @@ module.exports = function(api) {
         'module-resolver',
         {
           alias: {
-            '@atoms': './src/components/atoms',
-            '@molecules': './src/components/molecules',
-            '@organisms': './src/components/organisms',
-            '@templates': './src/components/templates',
-            '@screens': './src/screens',
-            '@assets': './src/assets',
-            '@routes': './src/routes',
-            '@theme': './src/global/styles'
+            '@root': './src',
+            '@assets': './assets'
           }
         }
       ]

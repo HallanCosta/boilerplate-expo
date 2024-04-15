@@ -1,8 +1,9 @@
 import React from 'react';
 import { SvgProps } from 'react-native-svg';
 
+import { DesignTitle } from '@root/components/atoms/DesignTitle';
+
 import { Container } from './styles';
-import { DesignTitle } from '@atoms/DesignTitle';
 
 type Props = {
   icon: React.FC<SvgProps>;

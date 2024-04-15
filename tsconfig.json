@@ -6,15 +6,8 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "@atoms/*": ["src/components/atoms/*"],
-      "@molecules/*": ["src/components/molecules/*"],
-      "@organisms/*": ["src/components/organisms/*"],
-      "@templates/*": ["src/components/templates/*"],
-      "@screens/*": ["src/screens/*"],
-      "@assets/*": ["src/assets/*"],
-      "@routes": ["src/routes/index.tsx"],
-      "@routes/*": ["./src/routes/*"],
-      "@theme/*": ["src/global/styles/*"]
+      "@root/*": ["src/*"],
+      "@assets/*": ["assets/*"]
     }
   },
   "include": ["./**/*"],
