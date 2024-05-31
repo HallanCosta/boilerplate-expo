@@ -2,10 +2,7 @@ import React from 'react';
 
 import { Designs } from '@root/components/templates/Designs';
 
-import {
-  styles,
-  Container
-} from './styles';
+import * as Style from './style';
 
 export function Home() {
   function createAtoms() {
@@ -23,8 +20,9 @@ export function Home() {
   const atoms = createAtoms();
 
   return (
-    <Container>
+    <Style.Container>
+      <Style.Title>Welcome</Style.Title>
       <Designs data={atoms} />
-    </Container>
+    </Style.Container>
   );
 }

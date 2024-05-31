@@ -13,3 +13,8 @@ export const Container = styled.View`
   align-items: center;
   background-color: #ffffff;
 `;
+
+export const Title = styled.Text`
+  font-size: 32px;
+  color: ${props => props.theme.colors.base.primary};
+`;

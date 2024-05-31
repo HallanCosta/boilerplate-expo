@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
 import styled from 'styled-components/native';
-import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-
-const STATUSBAR_HEIGHT = getStatusBarHeight() + 52;
 
 export const styles = StyleSheet.create({
   molecule: {
@@ -18,7 +15,7 @@ export const styles = StyleSheet.create({
 });
 
 export const Container = styled.View`
-  margin-top: ${`${STATUSBAR_HEIGHT}px`};
+  margin-top: 52px;
   justify-content: center;
   align-items: center;
 `;

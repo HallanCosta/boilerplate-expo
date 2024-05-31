@@ -10,6 +10,17 @@ module.exports = function(api) {
             '@root': './src',
             '@assets': './assets'
           }
+        },
+      ],
+      [
+        'module:react-native-dotenv',
+        {
+          moduleName: '@env',
+          path: '.env',
+          blacklist: null,
+          whitelist: null,
+          safe: false,
+          allowUndefined: true
         }
       ]
     ]
