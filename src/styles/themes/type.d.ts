@@ -1,7 +1,7 @@
 import 'styled-components/native';
 
-import { ThemeColorRgbProps } from '@root/styles/constants/colors/rgb/type';
-import { ThemeColorBaseProps } from '@root/styles/constants/colors/base/type';
+import { ThemeColorRgbProps } from '@root/styles/themes/types/colors/rgb';
+import { ThemeColorBaseProps } from '@root/styles/themes/types/colors/base';
 
 export type ThemeColorsProps = {
   base: ThemeColorBaseProps;

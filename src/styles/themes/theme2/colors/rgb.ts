@@ -1,4 +1,4 @@
-import { ThemeColorRgbProps } from "./type";
+import { ThemeColorRgbProps } from "@root/styles/themes/types/colors/rgb";
 
 export const themeColorRgb: ThemeColorRgbProps = {
   success: '#3BC071',

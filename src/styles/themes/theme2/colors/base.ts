@@ -1,4 +1,4 @@
-import { ThemeColorBaseProps } from "./type";
+import { ThemeColorBaseProps } from "@root/styles/themes/types/colors/base";
 
 export const themeColorBase: ThemeColorBaseProps = {
   primary: 'orange',

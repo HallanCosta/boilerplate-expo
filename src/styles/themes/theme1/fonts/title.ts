@@ -1,4 +1,4 @@
-import { ThemeFontProps } from "./type";
+import { ThemeFontProps } from "@root/styles/themes/types/fonts/font";
 
 export const themeFontTitle: ThemeFontProps = {
   small: 18,
