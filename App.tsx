@@ -14,11 +14,6 @@ import { THEME_ID } from '@env';
 
 import theme from '@root/styles/themes';
 
-const whiteLabel = {
-  'theme1': theme.theme1,
-  'theme2': theme.theme2,
-};
-
 export default function App() {
   let [fontsLoaded, fontError] = useFonts({
     Ubuntu_700Bold,
@@ -27,6 +22,11 @@ export default function App() {
   if (!fontsLoaded && !fontError) {
     return null;
   }
+
+  const whiteLabel = {
+    'theme1': theme.theme1,
+    'theme2': theme.theme2,
+  };
 
   const themeId = THEME_ID as ThemeIdProps;
   
